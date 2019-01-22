@@ -81,7 +81,4 @@ fileName3 <- paste(examples.path, "/PhosPhound_", Sys.Date(), ".txt", sep="")
 
 write.table(phindPhospho_Example, fileName3, row.names=FALSE, append = FALSE,  sep = "\t")
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+

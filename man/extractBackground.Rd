@@ -60,8 +60,4 @@ extractBack_Example <- extractBackground(s, c, w)
 fileName2 <- paste(examples.path, "/Background_", c, "_" ,w, "_", Sys.Date(), ".txt", sep="")
 
 write.table(extractBack_Example, fileName2, row.names=FALSE, col.names=FALSE, quote=FALSE)
-
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+}
