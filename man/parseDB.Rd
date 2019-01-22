@@ -50,5 +50,5 @@ parseDB_Example <- parseDB(uniprot_ref)
 filename1 <- paste(examples.path, "/Human_Uniprot_Parsed_", Sys.Date(), ".txt", sep="")
 
 write.table(parseDB_Example, filename1, row.names=FALSE, col.names=FALSE, sep="\t")
-
+}
 
