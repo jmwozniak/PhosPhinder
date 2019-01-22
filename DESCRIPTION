@@ -1,11 +1,10 @@
 Package: PhosPhinder
 Type: Package
-Title: What the Package Does (Title Case)
+Title: An R package for phospho-site localization and motif extraction from phospho-proteomic datasets
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Jacob M. Wozniak
+Maintainer: jakewozniak@gmail.com
+Description: The R package, PhosPhinder, was designed to facilitate the in-depth analysis of phospho-proteomic data by researchers, even those with little programming background. The package contains three functions: parseDB, phindPhospho and extractBackground. Together, these functions allow users to reformat “.fasta” databases for easier analysis, localize phospho-sites within full proteins, extract motifs surrounding identified phospho-sites and create proteome-specific motif backgrounds for statistical purposes. 
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
